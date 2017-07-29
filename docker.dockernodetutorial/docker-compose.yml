@@ -1,0 +1,8 @@
+node:
+  build: .
+  ports:
+    - "8027:80"
+    - "8028:8080"
+  volumes:
+    - ../:/var/www/html
+  tty: true
